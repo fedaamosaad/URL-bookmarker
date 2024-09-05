@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat';
+    background-color: #FEF2F4;
+    
+}
+h1{
+    font-family: "Pacifico", cursive;
+    color: #d6406a;
+    font-size: 50px;
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+.container{
+    position: relative;
+}
+.one,.two,.three,.four,.five{
+    width: 150px;
+    position: absolute;
+}
+.one{
+    bottom:5px;
+    left: 5px;
+}
+.two{
+    right:0;
+    bottom: 0;
+}
+.three{
+    right: 15px;
+    top :50px;
+    transform: rotate(5deg);
+
+}
+.four{
+    left: 320px;
+}
+.five{
+    width: 200px;
+    transform: rotate(-10deg);
+}
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom:5px;
+    left: 0;
+    background-color: #FFABAB;
+    z-index: -1;}
+    .form-control:focus {
+       
+        border-color: rgb(255, 171, 171);
+        box-shadow: 0 0 0 .25rem rgba(255, 171, 171, .25);}
+    h2{
+    color: #a5405c;
+}
+h3{
+    color: #a5405c;
+}
+i{
+    color: #643843;
+}
+.btn{
+    background-color: #FFABAB;
+    color: #643843;
+}
+.btn:hover{
+    background-color: #FCC8D1;
+}
+.table>:not(caption)>*>*{
+    color: #d6406a;
+}
+.websitename{
+    color: #643843;
+}
+.form-floating>.form-control{
+ padding: 10px 12px;
+}
+.error-message{
+    visibility: hidden;
+}
